@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="static/css/materialize.min.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title></title>
 </head>
 <body style="width:600px;">
@@ -13,11 +15,26 @@
         </div>
       </nav>
     </header>
-    <main>
 
+    <main class="container">
+        <div class="nav-wrapper">
+          <form>
+            <div class="input-field">
+              <input id="search" type="search" required>
+              <label for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+        <div class="search-result">
+            ВЫДАЧА
+        </div>
     </main>
     <footer>
 
     </footer>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/materialize.min.js"></script>
+    <script src="static/js/main.js"></script>
 </body>
 </html>

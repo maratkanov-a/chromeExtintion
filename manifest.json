@@ -7,7 +7,7 @@
     "128": "128.png"
   },
   "background": {
-    "scripts": ["main.js"]
+    "scripts": ["static/js/main.js"]
   },
   "browser_action": {
     "default_title": "OpenDataSearch",
