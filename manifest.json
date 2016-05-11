@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "System of open data in chrome",
+  "version": "1.0",
+
+  "icons": {
+    "128": "128.png"
+  },
+  "background": {
+    "scripts": ["main.js"]
+  },
+  "browser_action": {
+    "default_title": "OpenDataSearch",
+    "default_popup": "main.html"
+  }
+
+}
+
+
+
