@@ -9,6 +9,9 @@
   "background": {
     "scripts": ["static/js/main.js"]
   },
+  "permissions": [
+    "http://openapi.clearspending.ru/restapi/v3/contracts/search/*"
+  ],
   "browser_action": {
     "default_title": "OpenDataSearch",
     "default_popup": "main.html"
